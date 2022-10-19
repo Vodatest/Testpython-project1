@@ -1,7 +1,7 @@
 # pylint: disable=C0114
 # Comparison and assignment operators
-
-print(5 < 3)
+num=4
+print(5 < num)
 # Membership operator
 if 5 in [1, 2, 3, 4, 5]:
     print('is contained')
