@@ -1,8 +1,8 @@
 """
-This function is to print Hello
+This function is to add two numbers
 """
-def test(num):
-    """ Print Hello
+def add(a,b):
+    """ add a and b and save it in c
     """
-num = 'Hello'
-print(num)
+c = a+b
+print(c)
