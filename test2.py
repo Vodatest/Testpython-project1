@@ -2,6 +2,11 @@
 high level support for doing this and that.
 """
 def quadratic(a, b, c, x):
+    
+    """
+    high level support for doing this and that.
+    """
+    
     # Calculate solution to a quadratic equation using the quadratic
     # formula.
     #
