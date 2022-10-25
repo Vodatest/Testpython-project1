@@ -1,5 +1,5 @@
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: local
     rev: v4.3.0
 hooks:
   - id: pylint # pylint is a pre-commit hook that runs as a linter to check for style
