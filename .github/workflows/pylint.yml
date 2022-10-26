@@ -1,9 +1,7 @@
 name: Python Linting pre-commmit
 on:
-  pull_request:
-    branches: [main]
   push:
-    branches: [Vodatest-mi]
+    branches: [main]
 jobs:
  pre-commit:
     runs-on: ubuntu-latest
