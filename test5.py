@@ -3,7 +3,8 @@
 
 # function that calculates cylinder volume
 def cylinder_volume(height, radius=5.0):
-    """Volume of a cylinder
+    """
+    Volume of a cylinder
     Parameters:
     height (float): Height of the cylinder
     radius (float): Radius of the cylinder (default 5.0)
