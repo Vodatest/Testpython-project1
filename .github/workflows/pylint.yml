@@ -22,4 +22,4 @@ jobs:
           pip install pylint
       - name: Lint with Pylint
         run: |
-          pylint $(git ls-files '*.py')
+          pylint $(git ls-files '*.py', '*.ipynb')
