@@ -8,4 +8,4 @@ good-names=x,y,a,b #names to be considered ok
 
 [pre-commit-hook]
 command=custom_pylint
-disable=E0401, C0301
+disable=E0401, C0301, C0116, C0114
