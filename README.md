@@ -4,7 +4,7 @@ Github action project that triggers linter to run on each push
 
 5 .py files used for testing
 
-Github Action using Pre-Commit, PyLint and Pytest
+##Github Action using Pre-Commit, PyLint and Pytest
 
 Github actions is the way that we have to apply CICD or run customized workflows
 
@@ -12,13 +12,14 @@ You can take a look at the Documentation
 
 The funniest thing is that pre-commit can be added to a workflow as an automated task, we can add unit testing, check the coverage, etc. All this task can be executed after push our code or create a pull request.
 
-The ##pylint.yml in ##Testpython-project1/.github/workflows/ workflow will run the pytest suite in addition to running the pre-commit tests.
+The **pylint.yml in **Testpython-project1/.github/workflows/ workflow will run the pytest suite in addition to running the pre-commit tests.
 
 ## For Plylint configuration
 
 .pylintrc can be used to configure pylint checks
 
-The documentation that I used to create this repository is:
+
+##The documentation that I used to create this repository is:
 
 https://pre-commit.com/#install
 
