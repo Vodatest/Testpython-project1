@@ -12,7 +12,7 @@ The funniest thing is that pre-commit can be added to a workflow as an automated
 
 ## Setting up Github workflow
 
-Create a folder .github/workflow and in it copy the pylint.yml file to define the workflow. We have used the workflow to install the pylint instead of downloading it locally. 
+Create a folder .github/workflows and in it copy the pylint.yml file to define the workflow. We have used the workflow to install the pylint instead of downloading it locally. 
 
 OR 
 
