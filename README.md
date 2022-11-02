@@ -10,6 +10,16 @@ You can take a look at the https://pre-commit.com/#intro
 
 The funniest thing is that pre-commit can be added to a workflow as an automated task, we can add unit testing, check the coverage, etc. All this task can be executed after push our code or create a pull request.
 
+## Setting up Github workflow
+
+Create a folder .github/workflow and in it copy the pylint.yml file to define the workflow. We have used the workflow to install the pylint instead of downloading it locally. 
+
+OR 
+
+You can even use Github provided configurations to define the workflow.
+
+<img width="522" alt="image" src="https://user-images.githubusercontent.com/116036346/199461779-82478c5a-4531-4dea-8172-45fde19ca7ee.png">
+
 The **pylint.yml** in **Testpython-project1/.github/workflows/** workflow will run the pytest suite in addition to running the pre-commit tests.
 
 **For Plylint configuration**
