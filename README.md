@@ -6,7 +6,7 @@ Github action project that triggers linter to run on each push
 
 Github actions is the way that we have to apply CICD or run customized workflows
 
-You can take a look at the Documentation
+You can take a look at the https://pre-commit.com/#intro
 
 The funniest thing is that pre-commit can be added to a workflow as an automated task, we can add unit testing, check the coverage, etc. All this task can be executed after push our code or create a pull request.
 
