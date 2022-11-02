@@ -1,0 +1,11 @@
+[MASTER]
+
+jobs=4 #number of processes to use
+
+[BASIC]
+
+good-names=x,y,a,b #names to be considered ok
+
+[pre-commit-hook]
+command=custom_pylint
+disable=E0401, C0301
