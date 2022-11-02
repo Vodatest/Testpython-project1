@@ -8,3 +8,18 @@ if name.startswith('M'):
     print('Name starts with M')
 if name.endswith('ing'):
     print('Name ends with ing')
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
