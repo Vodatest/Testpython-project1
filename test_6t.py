@@ -2,7 +2,7 @@
 import pytest
 
 # import the function from your file
-from session import add_numbers
+from test6 import add_numbers
 
 # Check if properly adds positive numbers
 def test_add_positive():
