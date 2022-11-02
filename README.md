@@ -14,12 +14,11 @@ The funniest thing is that pre-commit can be added to a workflow as an automated
 
 The **pylint.yml** in **Testpython-project1/.github/workflows/** workflow will run the pytest suite in addition to running the pre-commit tests.
 
-## For Plylint configuration
+**For Plylint configuration**
 
 .pylintrc can be used to configure pylint checks
 
-
-##The documentation that I used to create this repository is:
+## The documentation that I used to create this repository is:
 
 https://pre-commit.com/#install
 
