@@ -2,8 +2,6 @@
 
 Github action project that triggers linter to run on each push
 
-5 .py files used for testing
-
 ## Github Action using Pre-Commit, PyLint and Pytest
 
 Github actions is the way that we have to apply CICD or run customized workflows
