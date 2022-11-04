@@ -2,14 +2,21 @@ name: Demo
 on:
    pull_request:
     branches: [main]
-  push:
+   push:
     branches: [main]
-  workflow_dispatch:
+   workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.10.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10.7
+      - name: Install pre-commit
+        run: |
+          pip install pre-commit
   call-workflow1:
     uses: ./.github/workflows/pylint.yaml
   call-workflow2:
