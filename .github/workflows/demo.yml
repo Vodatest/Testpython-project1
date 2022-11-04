@@ -18,7 +18,7 @@ jobs:
         run: |
           pip install pre-commit
   call-workflow1:
-    uses: ./.github/workflows/pylint.yaml
+    uses: ./.github/workflows/pylint.yml
   call-workflow2:
     needs: call-workflow1
-    uses: ./.github/workflows/pytest.yaml
+    uses: ./.github/workflows/pytest.yml
