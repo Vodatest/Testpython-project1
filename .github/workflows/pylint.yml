@@ -23,4 +23,5 @@ jobs:
           pip install -r requirements.txt
       - name: Lint with Pylint
         run: |
+          jupyter nbconvert --to script --output-dir=/tmp/converted-notebooks/ ./ipynbfiles/*.ipynb
           pylint $(git ls-files '*.py')
